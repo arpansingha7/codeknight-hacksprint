@@ -9,17 +9,17 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #333;
   background-color: #f9fafb;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 /* Header */
 header {
-  background: linear-gradient(90deg, #4CAF50, #2196F3);
+  background: linear-gradient(90deg, #27e62d, #036bc1);
   padding: 1rem 0;
 }
 
 header nav {
-  max-width: 1200px;
+  max-width: 2000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -28,7 +28,7 @@ header nav {
 }
 
 header .logo {
-  color: #fff;
+  color: #ffffff;
   font-size: 3rem;
   font-weight: bold;
   margin-left: 2px;
@@ -51,7 +51,7 @@ header .nav-links a {
 }
 
 header .nav-links a:hover {
-  color: #ffcc00;
+  color: #ff0000;
 }
 
 /* Mobile Navigation */
@@ -78,7 +78,7 @@ header .nav-links a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 4rem 1rem;
-  background: linear-gradient(90deg, #357137, #2196F3);
+  background: linear-gradient(90deg, #2579b4, #3ec24b);
   color: #fff;
 }
 
@@ -97,8 +97,8 @@ header .nav-links a:hover {
 }
 
 #hero button {
-  background-color: #ffcc00;
-  color: #004aad;
+  background-color: #00ff37;
+  color: #0909d2;
   border: none;
   padding: 0.8rem 1.5rem;
   font-size: 1rem;
@@ -109,7 +109,7 @@ header .nav-links a:hover {
 }
 
 #hero button:hover {
-  background-color: #ffd633;
+  background-color: #f5ff33d9;
 }
 
 #hero .hero-image img {
@@ -155,7 +155,7 @@ header .nav-links a:hover {
 }
 
 .feature-item {
-  background: #fff;
+  background: #c8b4b46d;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -174,7 +174,7 @@ header .nav-links a:hover {
 
 /* Footer */
 footer {
-  background-color: #004aad;
+  background-color: #156bdc;
   color: #fff;
   padding: 1rem 0;
   text-align: center;
