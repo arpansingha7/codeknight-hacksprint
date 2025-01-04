@@ -1,111 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkillBridge</title>
-    <style>
-        body {
-            font-family: Helvetica, Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #e0f7fa;
-        }
-        header {
-            background: linear-gradient(90deg, #4CAF50, #2196F3);
-            color: white;
-            padding: 15px 20px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 3em;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            font-weight: bold;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        }
-        header p {
-            font-size: 1.2em;
-        }
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section h2 {
-            margin-bottom: 10px;
-            color: #00796B;
-            font-weight: bold;
-        }
-        .task-list, .skills-list, .profile-info {
-            list-style-type: none;
-            padding: 0;
-        }
-        .task-list li, .skills-list li, .profile-info li {
-            margin: 10px 0;
-            padding: 15px;
-            background: #f1f1f1;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 1.1em;
-            color: #37474F;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: linear-gradient(90deg, #2196F3, #4CAF50);
-            color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            font-size: 1em;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillBridge - Empowering Skills, Connecting Opportunities</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>SkillBridge</h1>
-        <p>Empowering Communities Through Skills and Tasks</p>
-    </header>
+  <header>
+    <nav>
+      <div class="logo">SkillBridge</div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#tasks">Tasks</a></li>
+        <li><a href="#training">Training</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <div class="container">
-        <div class="section">
-            <h2>Recommended Micro-Tasks</h2>
-            <ul class="task-list">
-                <li>Translate a 2-page document (Earn ₹400)</li>
-                <li>Data entry for a local NGO (Earn ₹800)</li>
-                <li>Create a simple flyer design (Earn ₹600)</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Skill-Building Tutorials</h2>
-            <ul class="skills-list">
-                <li>Basic Typing Skills (5 mins)</li>
-                <li>Introduction to Microsoft Word (10 mins)</li>
-                <li>Social Media Basics for Businesses (15 mins)</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Your Profile</h2>
-            <ul class="profile-info">
-                <li><strong>Earnings:</strong> ₹2000</li>
-                <li><strong>Completed Tasks:</strong> 3</li>
-                <li><strong>Badges Earned:</strong> Beginner, Task Champ</li>
-            </ul>
-        </div>
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Empowering Skills, Connecting Opportunities</h1>
+      <p>Transforming lives through micro-tasks and skill-building.</p>
+      <button id="get-started">Get Started</button>
     </div>
+    <div class="hero-image">
+      <img src="hero-image-placeholder.jpg" alt="Empowering Skills">
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 SkillBridge. All rights reserved..</p>
-    </footer>
+  <section id="features" class="section">
+    <h2>Key Features</h2>
+    <div class="feature-grid">
+      <div class="feature-item">
+        <h3>Micro-Task Marketplace</h3>
+        <p>Find tasks tailored to your skills and earn income easily.</p>
+      </div>
+      <div class="feature-item">
+        <h3>AI-Powered Matching</h3>
+        <p>Let AI recommend tasks and skill-building modules for you.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Free Skill Training</h3>
+        <p>Access tutorials to improve your skills and unlock opportunities.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tasks" class="section">
+    <h2>Micro-Task Marketplace</h2>
+    <p>Explore available tasks and start earning today!</p>
+  </section>
+
+  <section id="training" class="section">
+    <h2>Free Micro-Skill Training</h2>
+    <p>Learn essential skills with engaging tutorials and gamified learning.</p>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 SkillBridge. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
