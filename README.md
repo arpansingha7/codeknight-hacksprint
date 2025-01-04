@@ -18,7 +18,7 @@ Empowering communities by bridging skills and tasks through an innovative platfo
 3. Access tutorials to learn new skills and earn badges.
 
 ## 🛠️ Technologies Used
-- **Frontend**: HTML, CSS (with modern styling and responsive design).
+- **Frontend**: HTML, CSS and JavaScript (with modern styling and responsive design).
 - **Backend**: TBD.
 - **Database**: TBD.
 
